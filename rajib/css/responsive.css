@@ -1,0 +1,184 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  /* CSS */
+  #helpdesk{
+    padding-bottom: 0px!important;
+  }
+  #footer{
+    padding-top: 0px!important;
+padding-bottom: 0px!important;
+  }
+  #footercopy{
+    padding-top: 3px!important;
+padding-bottom: 3px!important;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* CSS */
+  #helpdesk{
+    padding-bottom: 0px!important;
+  }
+  #footer{
+    padding-top: 0px!important;
+padding-bottom: 0px!important;
+  }
+  #footercopy{
+    padding-top: 3px!important;
+padding-bottom: 3px!important;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* CSS */
+  #helpdesk{
+    padding-bottom: 0px!important;
+  }
+  #footer{
+    padding-top: 0px!important;
+padding-bottom: 0px!important;
+  }
+  #footercopy{
+    padding-top: 3px!important;
+padding-bottom: 3px!important;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  /* CSS */
+  #helpdesk{
+    padding-bottom: 0px!important;
+  }
+  #footer{
+    padding-top: 0px!important;
+padding-bottom: 0px!important;
+  }
+  #footercopy{
+    padding-top: 3px!important;
+padding-bottom: 3px!important;
+  }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* CSS */
+  #helpdesk{
+    padding-bottom: 0px!important;
+  }
+  #footer{
+    padding-top: 0px!important;
+padding-bottom: 0px!important;
+  }
+  #footercopy{
+    padding-top: 3px!important;
+padding-bottom: 3px!important;
+  }
+  .help-info img {
+    width: 31%!important;
+}
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* CSS */
+  section {
+      padding-top: 0px!important;
+      padding-bottom: 0px!important;
+      padding-left: 0px!important;
+      padding-right: 0px!important;
+  }
+  #helpdesk{
+    padding-bottom: 0px!important;
+  }
+  #footer{
+    padding-top: 0px!important;
+padding-bottom: 0px!important;
+  }
+  #footercopy{
+    padding-top: 3px!important;
+padding-bottom: 3px!important;
+  }
+  .navbar-brand {
+    width: 50%!important;
+}
+.navbar-brand img{
+  width: 40%!important;
+}
+.ico {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.help-info {
+    display: none!important;
+}
+.review h3 {
+    margin-top: 15px!important;
+    margin-bottom: 15px!important;
+    font-size: 10px!important;
+    line-height: 1.3!important;
+    padding: 10px!important;
+}
+.reviews h6 {
+    padding-top: 20px!important;
+}
+.review img {
+    width: 50px !important;
+    height: 50px!important;
+}
+.review h5 {
+    font-size: 12px!important;
+}
+.content {
+    margin-left: 10px!important;
+}
+.about .content .icon-box h4 {
+    font-size: 15px!important;
+}
+.service img {
+    width: 50px!important;
+}
+.intro h6 {
+    padding-top: 20px!important;
+}
+.service {
+    padding: 0px!important;
+}
+.btn-brand {
+    margin: 20px!important;
+}
+}
